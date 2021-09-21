@@ -1,0 +1,31 @@
+{
+  "name": "brawlball_tournaments",
+  "version": "1.0.0",
+  "description": "This was made to archive the history of the tournaments of the Brawlhalla gamemode \"Brawlball\".",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node --trace-warnings build/main.js",
+    "test": "node --trace-warnings build/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eichelb4rt/brawlball_tournaments.git"
+  },
+  "keywords": [
+    "brawlhalla",
+    "brawlball",
+    "tournaments",
+    "smashgg"
+  ],
+  "author": "Maurice \"Eichelbart\" Wenig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eichelb4rt/brawlball_tournaments/issues"
+  },
+  "homepage": "https://github.com/eichelb4rt/brawlball_tournaments#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.4",
+    "typescript": "^4.4.3"
+  }
+}
